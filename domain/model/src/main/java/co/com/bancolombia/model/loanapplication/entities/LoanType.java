@@ -10,13 +10,14 @@ import java.math.BigDecimal;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder(toBuilder = true)
-public class LoanApplication {
-    private String id;
-    private BigDecimal amount;
-    private Byte deadline;
-    private Byte idLoanStatus;
-    private Byte idLoanType;
+public class LoanType {
+    private Byte id;
+    private String name;
+    private BigDecimal amountMin;
+    private BigDecimal amountMax;
+    private Byte interestRate;
+    private Boolean isAvailable;
 }

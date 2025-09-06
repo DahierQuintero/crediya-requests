@@ -6,17 +6,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.math.BigDecimal;
-
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder(toBuilder = true)
-public class LoanApplication {
-    private String id;
-    private BigDecimal amount;
-    private Byte deadline;
-    private Byte idLoanStatus;
-    private Byte idLoanType;
+public class LoanStatus {
+    private Byte id;
+    private String name;
+    private String description;
 }
