@@ -1,4 +1,4 @@
-package co.com.bancolombia.usecase.loantype;
+package co.com.pragma.usecase.loantype;
 
 import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor

@@ -1,4 +1,4 @@
-package co.com.bancolombia.model.loanapplication.entities;
+package co.com.pragma.model.loanapplication.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
